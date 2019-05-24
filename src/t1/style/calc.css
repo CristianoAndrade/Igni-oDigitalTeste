@@ -1,0 +1,95 @@
+  .col-4{
+    width: 20px;
+  }
+
+  .calc td{
+    text-align: center;
+    width: 20%;
+    font-size: 18px;
+  }
+
+  .calc td:hover{
+    background: #f1f1f1;
+  }
+
+  .calc .calc-area{
+    text-align: right;
+    padding-right: 30px;
+  }
+
+
+div.calculadora {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  width: 260px;
+  height: 235px;
+  background-color: #ecf0f1;
+  border-style: outset;
+  font-family: Arial;
+}
+
+.calculadora_input {
+    position: relative;
+    top: 5px;
+    left: 4%;
+    width: 90%;
+    border-top: 1px solid #bdc3c7;
+    color: #2c3e50;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    background: #bdc3c7;
+    color: #2c3e50;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-active {
+  background: #2c3e50;
+  color: #ecf0f1;
+}
+
+.calculadora_linha1 {
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+.btn.btn_clr {
+  position: relative;
+  right: -2px;
+  width: 64px;
+}
+
+.calculadora_linha2 {
+    position: relative;
+    top: 35px;
+    left: 10px;
+}
+
+.calculadora_linha3 {
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+.calculadora_linha4 {
+    position: relative;
+    top: 45px;
+    left: 10px;
+}
+
+.btn.btn_0 {
+    width: 84px;
+}
+
+.btn.btn_eql {
+    position: absolute;
+    right: 6px;
+    height: 129px;
+    bottom: 7px;
+    width: 64px;
+}
