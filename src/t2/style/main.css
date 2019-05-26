@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400i&display=swap');
+
+body {
+  background-image: url('../design/Responsive_Design_BG.png');
+}
+
+ul.nav {
+  margin-top: 5.7%;
+  margin-bottom: 1.5%;
+  font-size: .8em;
+  font-family: 'Roboto', sans-serif;
+}
+
+a.nav-link {
+  color: #2d3436;
+  font-weight: 900;
+  padding-left: 0px;
+}
+
+.bordertop_learn {
+  border-top:  5px solid #000;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #000;
+}
+
+.learn {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.learn img {
+  width: 20%;
+}
+
+.borderbottom_learn {
+  border-top:  5px solid #000;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #000;
+}
+
+.banner {
+  margin-top: 2%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+div.row {
+  margin-top: 3%;
+}
+
+.col h1 {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: 400;
+  color: #2d3436;
+  border-left: 5px solid #000;
+  padding-left: 2%;
+}
+
+.col p {
+  margin-top: 4%;
+  margin-bottom: 5%;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  font-size: .9em;
+  color: #2d3436;
+}
+
+div.row img {
+  margin-bottom: 5%;
+}

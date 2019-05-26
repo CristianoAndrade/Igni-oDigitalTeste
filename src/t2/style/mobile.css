@@ -1,0 +1,20 @@
+@media (max-width: 576px){
+
+  .nav {
+    align-content: center;
+    justify-content: center;
+  }
+
+  .learn img {
+    width: 60%;
+  }
+
+  .banner img {
+    width: 100%;
+    height: 30vh;
+  }
+
+  div.row {
+    flex-direction: column;
+  }
+}
