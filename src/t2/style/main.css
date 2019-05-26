@@ -71,6 +71,12 @@ div.row {
   color: #2d3436;
 }
 
+div.row {
+  flex-direction: row;
+}
+
 div.row img {
+  max-width: 380px;
+  max-height: 233.65px;
   margin-bottom: 5%;
 }
