@@ -1,13 +1,14 @@
   console.log('Implemente o layout que se encontra na pasta design de forma responsiva, utilizando html5 e as boas práticas do front end. O site será testado em todos os navegadores e também em dispositivos móveis');
 
-$.get("http://localhost/server",selecionaImagem);
+  $.get("http://localhost/front-teste/server/data.json",selecionaImagem);
 
-function selecionaImagem(imagens) {
-  $('.learn').append(`<img src="${imagens.imagens[4].imagem}" alt="">`);
+function selecionaImagem(data) {
+  data = JSON.parse(data);
+  $('.learn').html(`<img src="${data.imagens[4].imagem}" alt="">`);
 
-  $(".banner").append(`<img src="${imagens.imagens[0].imagem}" alt="Banner">`);
+  $(".banner").html(`<img src="${data.imagens[0].imagem}" alt="Banner">`);
 
-  $(".imagens").append(`<img src="${imagens.imagem[1].imagem}" alt="Imagem 1" class="col">
-    <img src="${imagens.imagem[2].imagem}" alt="Imagem 2" class="col">
-    <img src="${imagens.imagem[3].imagem}" alt="Imagem 2" class="col">`);
+  $(".imagens").html(`<img src="${data.imagens[1].imagem}" alt="Imagem 1" class="col">
+     <img src="${data.imagens[2].imagem}" alt="Imagem 2" class="col">
+    <img src="${data.imagens[3].imagem}" alt="Imagem 2" class="col">`);
 }
