@@ -2,60 +2,17 @@
 <html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="styles/index.css">
+	<link rel="stylesheet" href="styles/keyframe.css">
+	<script src="scripts/index.js"></script>
 	<title>Animação</title>
-	<style>
-	.section-main{
-		width: 500px;
-		margin: 0 auto;
-		position: relative;
-	}
 
-	.map-box{
-		width: 200px;
-		height: 200px;
-		position: relative;
-		margin: 0 auto;
-		margin-top: 200px;
-		left: -100px;
-		border-bottom: 3px solid #e00;
-		border-right: 3px solid #e00;
-	}
-
-	.map-box:before{
-		content: "";
-		width: 200px;
-		right: -200px;
-		position: absolute;
-		border-bottom: 3px solid #e00;
-	}
-
-	.box-move{
-		width: 30px;
-		height: 30px;
-		background-color: #ee0;
-		position: absolute;
-		left: 10px;
-		border: 1px solid #333;
-		left: 34px;
-		bottom: -15px;
-		border-radius: 100%;
-	}
-	</style>
 </head>
 <body>
 	<section class="section-main">
 		<div class="map-box"></div>
 		<div class="box-move"></div>
 	</section>
-	<script>
-	console.log('Faça com que o box-move passe pelas 4 arestas das bordas vermelhas \n com as seguintes regras:');
-
-	console.log('Quando o box-move estiver na aresta B ficará da cor #0F0, quando estiver na aresta C ficará da cor #00F \n no ponto D o elemento se tornará um quadrado e ficará da cor #FFF; ');
-
-	console.log('Após isso o box-move deve voltar ao seu ponto de origem seguindo as mesmas regras ao contrário até se tornar um círculo. ');
-	console.log('A animação deve ser infinita \n');
-	console.log('Deve ser utilizado apenas css para fazer estar animação.\n\n');
-	console.log('Dica: keyframes');
-	</script>
 </body>
 </html>

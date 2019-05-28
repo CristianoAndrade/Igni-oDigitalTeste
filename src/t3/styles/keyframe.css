@@ -1,0 +1,31 @@
+@-webkit-keyframes box-move {
+  0% {left: 34px;}
+  25% {bottom: -15px; left: 234px; background-color: #0F0;}
+  50% {bottom: 183px; left: 234px; background-color: #00F; border-radius: 100%;}
+  100% {bottom: 183px; left: 424px; background-color: #FFF; border-radius: 0%;}
+}
+@-o-keyframes box-move {
+  0% {left: 34px;}
+  25% {bottom: -15px; left: 234px; background-color: #0F0;}
+  50% {bottom: 183px; left: 234px; background-color: #00F; border-radius: 100%;}
+  100% {bottom: 183px; left: 424px; background-color: #FFF; border-radius: 0%;}
+}
+@-moz-keyframes box-move {
+  0% {left: 34px;}
+  25% {bottom: -15px; left: 234px; background-color: #0F0;}
+  50% {bottom: 183px; left: 234px; background-color: #00F; border-radius: 100%;}
+  100% {bottom: 183px; left: 424px; background-color: #FFF; border-radius: 0%;}
+}
+@keyframes box-move {
+  0% {left: 34px;}
+  25% {bottom: -15px; left: 234px; background-color: #0F0;}
+  50% {bottom: 183px; left: 234px; background-color: #00F; border-radius: 100%;}
+  100% {bottom: 183px; left: 424px; background-color: #FFF; border-radius: 0%;}
+}
+
+.box-move {
+  -webkit-animation: box-move 5s alternate infinite;
+  -o-animation: box-move 5s alternate infinite;
+  animation: box-move 5s alternate infinite;
+}
+
